@@ -5,7 +5,6 @@ from helpers import (
     helper_1
 )
 
-
 def main():
     while True:
         menu()
@@ -17,12 +16,10 @@ def main():
         else:
             print("Invalid choice")
 
-
 def menu():
     print("Please select an option:")
     print("0. Exit the program")
     print("1. Some useful function")
-
 
 if __name__ == "__main__":
     main()

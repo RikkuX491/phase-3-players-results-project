@@ -2,7 +2,9 @@
 # lib/debug.py
 
 from models.__init__ import CONN, CURSOR
-import ipdb
+from models.player import Player
+from models.result import Result
 
+import ipdb
 
 ipdb.set_trace()
